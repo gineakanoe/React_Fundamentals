@@ -12,7 +12,7 @@ const getTimeString2 = () => {
 }
 
 const getTimeString3 = () => {
-    const date3 = new Date(Date.now()).toLocaleTimeString('en-US', {timeZone: 'MST'});
+    const date3 = new Date(Date.now()).toLocaleTimeString('en-US', {timeZone: 'MST'});  // how to account for daylight savings???
     return date3;
 }
 
