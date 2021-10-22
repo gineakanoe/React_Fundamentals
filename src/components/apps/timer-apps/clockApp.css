@@ -1,0 +1,25 @@
+.timeZones {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clock {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.clockFace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid black;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
